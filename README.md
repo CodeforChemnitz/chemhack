@@ -1,0 +1,2 @@
+# chemhack
+Chemnitzer Hackathon
