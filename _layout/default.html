@@ -84,12 +84,33 @@
 	<div class="container">
 		<div class="row row-offcanvas row-offcanvas-left">
 			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 sidebar-offcanvas" id="sidebar" role="navigation">
-        {% include nav.html %}
-      </div>
+        		{% include nav.html %}
+      		</div>
 			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9" id="mainstage">
-    		{{content}}
-      </div>
-	</div><!--/.container-->
+
+				{% comment %}
+				<div class="row">
+					<div class="col-xs-12">
+						<h1 class="text-right page-headline">
+							<a href="javascript:void(0);" data-toggle="offcanvas" data-target="#sidebar" class="visible-xs hidden-sm hidden-md hidden-lg pull-left">
+								<i class="fa fa-bars"></i>
+							</a>
+
+							<small class="text-muted">22. September 2017 |</small>
+							Einleitung
+						</h1>
+					</div>
+				</div>
+
+				<ul class="breadcrumb hidden-xs hidden-sm">
+					<li class="active">PHP Developer Day 2017</li>
+				</ul>
+				{% endcomment %}
+
+				{{content}}
+      		</div>
+		</div><!--/.container-->
+	</div>
 
 	<div class="container" id="footer">
 		<hr class="blockspace">
