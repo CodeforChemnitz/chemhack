@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vorbereitung
+title: Projekt Kickstart
 ---
 
 Ein Marathon darf wie beim Laufen auch vorbereitet werden. Dazu gehört, sich über Themen Gedanken zu machen, 
