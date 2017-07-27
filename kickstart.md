@@ -23,7 +23,7 @@ Ich brauch unkompliziertes **JS**
   - und mag **Zepto** (minimales jQuery) -> [CDN Link](http://www.jsdelivr.com/projects/zepto)
   - und mag **jQuery** -> [CDN Link](https://code.jquery.com/jquery/)
   
-## "Ich nutz ein Framework" 
+## "Ich mag Frameworks" 
 
 Ich mag **PHP**
 - und **Laravel** -> [Hackathon Prep with Laravel](https://medium.com/@piesse/hackathon-prep-with-laravel-dc47d96a2932)
