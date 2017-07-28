@@ -6,7 +6,7 @@ title: Sponsor werden
 
 <p class="lead">Liebe Sponsoren, wir möchten gerne einen mega tollen Hackathon organisieren und dafür benötigen wir Ihre Unterstützung!</p>
 
-#### Wofür benötigen wir finanzielle Unterstützung?
+### Wofür benötigen wir finanzielle Unterstützung?
 
 Wir möchten gerne ein breites Specktrum an Personen für den Hackathon begeistern. Ein Teil des Geldes möchten wir gerne in Werbung und Merchandising investieren.
 
@@ -16,13 +16,13 @@ Nicht zuletzt müssen wir natürlich auch die Miete für den Veranstalltungsort 
 
 Einen grobe Aufstellung unserer geplanten Ausgaben haben wir bereits in unserem [Pad (ab Zeile 71)](https://pad.okfn.de/p/chemnitz-hackathon) niedergeschrieben.
 
-#### Was bieten wir?
+### Was bieten wir?
 
 Als Sponsor verewigen wir Sie gerne mit Ihrem Logo auf unserer Webseite sowie auf Flyern und Plakaten.
 Wir möchten explizit keine Stände oder Promotion-Aktionen auf unserer Veranstaltung, dafür reicht unter Anderem auch der Platz am Veranstaltungsort nicht aus.
 Wir finden aber sicher einen Platz für das ein oder andere Rollup, Plakate, Flyer und Jobangebote.
 
-#### Sponsor werden?
+### Sponsor werden?
 
 **Wenn Sie uns unterstützen möchten, senden Sie uns bitte eine E-Mail an [sponsoring@chemnitzhackt.de](mailto:sponsoring@chemnitzhackt.de).**
 

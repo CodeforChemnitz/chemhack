@@ -1,3 +1,11 @@
 img#brandimg {
     margin-top: 10px;
 }
+
+body {
+    font-size: 11pt;
+}
+
+pre {
+    font-size: 10pt;
+}
