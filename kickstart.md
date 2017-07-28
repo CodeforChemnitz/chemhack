@@ -29,6 +29,10 @@ Ich mag **PHP**
 - und **Laravel** -> [Hackathon Prep with Laravel](https://medium.com/@piesse/hackathon-prep-with-laravel-dc47d96a2932)
 - und **Symfony** -> [Getting Started](https://symfony.com/doc/current/index.html)
 
+Ich mag **Python**
+- und minimal **Flask** -> [Quickstart](http://flask.pocoo.org/docs/0.12/quickstart/)
+- und **Django** -> [Getting Started](https://www.djangoproject.com/start/)
+
 Ich mag **Ruby**
 - und natürlich **Rails** -> [Getting Started](http://guides.rubyonrails.org/getting_started.html)
 
