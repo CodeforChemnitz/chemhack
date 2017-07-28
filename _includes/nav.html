@@ -1,6 +1,6 @@
 <!-- sidebar -->
 <nav id="sidenav">
-    <a href="/" class="hidden-xs hidden-sm">
+    <a href="/" class="hidden-xs">
         <img src="/assets/images/chemhack_small.png" id="brandimg" class="img-responsive" alt="ChemHack Logo">
     </a>
 
@@ -27,17 +27,20 @@
     <hr class="blockspace">
     {% endcomment %}
 
-    <ul class="nav">
-        <li><a href="themen.html">Die Themen</a></li>
-        <li><a href="ort-und-anreise.html">Ort und Anreise</a></li>
-        <li><a href="verpflegung.html">Verpflegung</a></li>
-        <li><a href="kickstart.html">Kickstart</a></li>
-        <li><a href="sponsoring.html">Sponsor werden</a></li>
+    {% assign current = page.url | downcase | split: '/' %}
+    {% assign current = current[1] | split: '.' %}
+    {% assign current = current[0] %}
+    <ul class="nav nav-pills nav-stacked">
+        <li {% if current == 'themen' %}class='active'{% endif %}><a href="/themen">Die Themen</a></li>
+        <li {% if current == 'ort-und-anreise' %}class='active'{% endif %}><a href="/ort-und-anreise">Ort und Anreise</a></li>
+        <li {% if current == 'verpflegung' %}class='active'{% endif %}><a href="/verpflegung">Verpflegung</a></li>
+        <li {% if current == 'kickstart' %}class='active'{% endif %}><a href="/kickstart">Kickstart</a></li>
+        <li {% if current == 'sponsoring' %}class='active'{% endif %}><a href="/sponsoring">Sponsor werden</a></li>
     </ul>
 
-    <hr class="blockspace">
+    <hr class="blockspace" class="hidden-xs">
 
-    <div id="socialmedia">
+    <div id="socialmedia" class="hidden-xs">
         <div class="row">
             <div class="col-xs-12">
                 <a href="https://twitter.com/ChemnitzHackt" target="_blank" title="Follow ChemnitzHackt on twitter">
@@ -45,8 +48,8 @@
                 </a>
             </div>
             <div class="col-xs-12">
-                <a href="https://twitter.com/hashtag/ChemnitzHackt" target="_blank" title="Hashtag #ChemnitzHackt on twitter">
-                    <i class="fa fa-twitter"></i> <span class="text-twitter">#ChemnitzHackt</span>
+                <a href="https://twitter.com/hashtag/ChemHack2017" target="_blank" title="Hashtag #ChemHack on twitter">
+                    <i class="fa fa-twitter"></i> <span class="text-twitter">#ChemHack2017</span>
                 </a>
             </div>
         </div>
