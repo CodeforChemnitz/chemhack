@@ -14,12 +14,21 @@ body {
     line-height: 1.5em;
     color: #111;
     font-size: 14pt;
+    overflow-x: hidden;
 }
 
 * {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300;
-} 
+    overflow-x: hidden;
+}
+
+.overflow-fix {
+    overflow-x: initial;
+}
+.header > .pure-u-1 {
+    overflow-x: initial;
+}
 
 .header {
     background-image: url('./header.jpg');
@@ -41,6 +50,7 @@ h1, h2, h3, h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-align: center;
+    overflow-x: initial;
 }
 
 h3, h4 {
@@ -95,23 +105,23 @@ ul {
     text-align: center;
 }
 
-.pure-g {
+body > .pure-g {
     padding: 0px 50px;
 }
 
-.pure-g:nth-child(2n) {
+body > .pure-g:nth-child(2n) {
     background-color: #85947e;
     color: #ffffff;
 }
 
-.pure-g:nth-child(2n) a {
+body > .pure-g:nth-child(2n) a {
     color: #ffffff;
 }
 
-.pure-g:nth-child(2n) h1, 
-.pure-g:nth-child(2n) h2, 
-.pure-g:nth-child(2n) h3, 
-.pure-g:nth-child(2n) h4 {
+body > .pure-g:nth-child(2n) h1, 
+body > .pure-g:nth-child(2n) h2, 
+body > .pure-g:nth-child(2n) h3, 
+body > .pure-g:nth-child(2n) h4 {
     color: #fff;
 }
 
@@ -190,7 +200,7 @@ pre {
 
 .line {
     background: #85947e;
-    margin: -10% -20% 10%;
+    margin: -10% -1% 10%;
     padding-top: 11%;
     position: relative;
     -webkit-transform: rotate(-2deg) translateY(50%);
@@ -204,57 +214,40 @@ pre {
     transform: rotate(-2deg) translateY(150%);
 }
 
-.landing dt {
-    -webkit-margin-start: 0;
-    font-weight: 300;
-    box-sizing: border-box;
-    margin-top: 15px;
-}
-
-.landing dd {
-    display: inline-block;
-    -webkit-margin-start: 0;
-    color: #888888;
-}
-
-.landing dd a {
-    color: #888888;
-}
-
-.landing dd strong {
-    color: #111
-}
-
 h3.agenda {
     margin-top: 45px;
 }
-
-@media screen  and (min-width: 580px) {
-    .landing dt {
-        text-align: right;
-        padding-right: 15px;
-        width: 16%;
-        display: inline-block;
-    }
-
-    .landing dt.fixit {
-        top: -28px;
-        position: relative;
-    }
-
-    .landing dd {
-        width: 83%;
-        margin-top: 15px;
-    }
-}
-
 
 @media screen  and (min-width: 768px) {
     h3.kickstart-hardware {
         margin-top: 150px;
     }
+
+    .agenda .pure-g .pure-u-md-1-5 {
+        text-align: right;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+    .agenda .pure-u-md-4-5 {
+        margin-top: 18px;
+    }
 }
 
 .first-row {
     margin-top: 35px;
+}
+
+.agenda .pure-u-md-1-5 {
+    margin-top: 18px;
+}
+
+.agenda .pure-u-1 p {
+    margin: 0;
+}
+
+.agenda .pure-u-1 p,
+.agenda .pure-u-1 p a {
+    margin: 0;
+    color: #888888;
 }
