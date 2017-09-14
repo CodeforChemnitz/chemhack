@@ -171,9 +171,9 @@ iframe {
 .copyright {
     text-align: right;
     font-size: 10px;
-    position: relative;
-    bottom: -297px;
-    right: -40px;
+    position: absolute;
+    right: 10px;
+    top: 660px
 }
 
 .text-tiny {
