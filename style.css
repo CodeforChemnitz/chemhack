@@ -111,7 +111,7 @@ body > .pure-g {
 }
 
 body > .pure-g:nth-child(2n) {
-    background-color: #85947e;
+    background-color: #8BA915;
     color: #ffffff;
 }
 
@@ -200,7 +200,7 @@ pre {
 }
 
 .line {
-    background: #85947e;
+    background: #8BA915;
     margin: -10% -1% 10%;
     padding-top: 11%;
     position: relative;
