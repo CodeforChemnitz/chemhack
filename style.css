@@ -86,6 +86,9 @@ ul {
 .icon-bird {
     max-height: 60px;
 }
+.icon-microphone {
+    max-height: 120px;
+}
 
 @media screen and (min-width: 48em) {
     .icon-location {
@@ -98,6 +101,9 @@ ul {
         margin-top: 25px;
     }
     .icon-bird {
+        margin-top: 25px;
+    }
+    .icon-microphone {
         margin-top: 25px;
     }
 }
