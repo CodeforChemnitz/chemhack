@@ -163,6 +163,12 @@ body > .pure-g:nth-child(2n) h4 {
     padding-bottom: 30px;
 }
 
+.logo-edc {
+    max-height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .logo-axilaris {
     max-height: 60px;
     padding-top: 20px;
