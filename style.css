@@ -89,6 +89,12 @@ ul {
 .icon-microphone {
     max-height: 120px;
 }
+.icon-ideas {
+    max-height: 100px;
+}
+.icon-judge {
+    max-height: 100px;
+}
 
 @media screen and (min-width: 48em) {
     .icon-location {
@@ -104,6 +110,12 @@ ul {
         margin-top: 25px;
     }
     .icon-microphone {
+        margin-top: 25px;
+    }
+    .icon-ideas {
+        margin-top: 25px;
+    }
+    .icon-judge {
         margin-top: 25px;
     }
 }
@@ -196,6 +208,10 @@ iframe {
     position: absolute;
     right: 10px;
     top: 660px
+}
+
+.text {
+    padding-right: 20px;
 }
 
 .text-tiny {
