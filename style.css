@@ -95,6 +95,10 @@ ul {
 .icon-judge {
     max-height: 100px;
 }
+.icon-qr {
+    max-height: 200px;
+    height: 200px;
+}
 
 @media screen and (min-width: 48em) {
     .icon-location {
@@ -274,7 +278,11 @@ h3.agenda {
 }
 
 .first-row {
-    margin-top: 35px;
+    background: #8BA915;
+}
+
+.first-row > div {
+    margin-top:35px;
 }
 
 .agenda .pure-u-md-1-5 {
