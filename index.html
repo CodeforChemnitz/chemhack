@@ -1,3 +1,5 @@
+---
+---
 <html lang="de">
     <head>
         <meta charset="utf-8">
@@ -10,8 +12,8 @@
         <meta property="og:title" content="Chemnitz hackt!">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://chemnitzhackt.de">
-        <meta property="og:image" content="http://chemnitzhackt.de/chemnitz-hackt-2017.png">
-        <link rel="stylesheet" href="style.css">
+        <meta property="og:image" content="http://chemnitzhackt.de/images/chemnitz-hackt-2017.png">
+        <link rel="stylesheet" href="../style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
@@ -21,7 +23,7 @@
     <body class="landing">
         <div class="pure-g header">
             <div class="pure-u-1 overflow-fix">
-                <img class="logo" src="chemnitz-hackt-2017.min.svg">
+                <img class="logo" src="/images/chemnitz-hackt-2017.min.svg">
                 <h1>Chemnitz hackt!</h1>
                 <h3>Am 28. und 29. Oktober 2017</h3>
                 <p class="subtitle">Der Hackathon in Chemnitz rund um Open Data</p>
@@ -29,9 +31,11 @@
             </div>
         </div>
         <div class="pure-g empty-row"></div>
+
+        <!-- Feedback -->
         <div class="pure-g first-row">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-qr" src="qr-feedback.gif">
+                <img class="icon icon-qr" src="/images/qr-feedback.gif">
             </div>
             <div class="pure-u-1 pure-u-md-3-5 agenda">
                 <a name="programm"></a>
@@ -43,12 +47,13 @@
 
             </div>
         </div>
-        <div class="line"></div>
+
+        <div class="line"></div> <!-- gruen_zu_weiss -->
 
         <!-- Programm -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-location" src="idea.svg">
+                <img class="icon icon-location" src="/images/idea.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5 agenda">
                 <a name="programm"></a>
@@ -150,7 +155,6 @@
             </div>
         </div>
         <div class="pure-g empty-row"></div>
-
         <!-- Fragen & Antworten -->
         <div class="pure-g space-top">
             <div class="pure-u-1 pure-u-md-1-5"></div>
@@ -186,13 +190,13 @@
                 </ul>
             </div>
         </div>
-        <div class="line line-inverse"></div>
-        <div class="pure-g empty-row"></div>
+
+        {% include weiss_zu_gruen.html %}
 
         <!-- Ort und Zeit -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-location" src="location.svg">
+                <img class="icon icon-location" src="/images/location.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="ort"></a>
@@ -206,13 +210,13 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d629.9551646019801!2d12.915777788164101!3d50.83448574570615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7465bd6ddf833%3A0xdbd764a9bcd39c87!2sZammwerk+Coworking+Chemnitz!5e0!3m2!1sde!2sde!4v1504254880834" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="pure-g empty-row"></div>
-        <div class="line"></div>
+
+        {% include gruen_zu_weiss.html %}
 
         <!-- Anmeldung & Ideen -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-pencil" src="pencil.svg">
+                <img class="icon icon-pencil" src="/images/pencil.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <h2>Anmeldung &amp; Ideen</h2>
@@ -227,13 +231,13 @@
                 </div>
             </div>
         </div>
-        <div class="line line-inverse"></div>
-        <div class="pure-g empty-row"></div>
+
+        {% include weiss_zu_gruen.html %}
 
         <!-- Verpflegung -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-food" src="food.svg">
+                <img class="icon icon-food" src="/images/food.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="verpflegung"></a>
@@ -246,13 +250,13 @@
                 </div>
             </div>
         </div>
-        <div class="pure-g empty-row"></div>
-        <div class="line"></div>
+
+        {% include gruen_zu_weiss.html %}
 
         <!-- Kickstart -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-rocket" src="rocket.svg">
+                <img class="icon icon-rocket" src="/images/rocket.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="kickstart"></a>
@@ -269,7 +273,7 @@
             </div>
         </div>
         <div class="pure-g empty-row"></div>
-        <div class="pure-g">
+        <div class="pure-g space-top">
             <div class="pure-u-1 pure-u-md-1-5"></div>
             <div class="pure-u-1 pure-u-md-2-5">
                 <h3>« Ich brauch kein Framework »</h3>
@@ -366,13 +370,13 @@
 
             </div>
         </div>
-        <div class="line line-inverse"></div>
-        <div class="pure-g empty-row"></div>
-        
+
+        {% include weiss_zu_gruen.html %}
+
         <!-- Ideen -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-ideas" src="ideas.svg">
+                <img class="icon icon-ideas" src="/images/ideas.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="ideen"></a>
@@ -462,13 +466,13 @@
                 </ul>
             </div>
         </div>
-        <div class="pure-g empty-row"></div>
-        <div class="line"></div>
-        
+
+        {% include gruen_zu_weiss.html %}
+
         <!-- Vorträge und Lightning Talks -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-speak" src="microphone.svg">
+                <img class="icon icon-speak" src="/images/microphone.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="vortraege"></a>
@@ -510,13 +514,13 @@
                 </div>
             </div>
         </div>
-        <div class="line line-inverse"></div>
-        <div class="pure-g empty-row"></div>
+
+        {% include weiss_zu_gruen.html %}
 
         <!-- Juroren -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-judge" src="judge.svg">
+                <img class="icon icon-judge" src="/images/judge.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="juroren"></a>
@@ -563,13 +567,13 @@
                 </p>
             </div>
         </div>
-        <div class="pure-g empty-row"></div>
-        <div class="line"></div>
+
+        {% include gruen_zu_weiss.html %}
 
         <!-- Bleibe auf dem Laufenden -->
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-2-5 is-center">
-                <img class="icon icon-bird" src="bird.svg">
+                <img class="icon icon-bird" src="/images/bird-sw.svg">
             </div>
             <div class="pure-u-1 pure-u-md-3-5">
                 <a name="updates"></a>
@@ -595,12 +599,12 @@
             <div class="pure-u-1 pure-u-md-3-5">
                 <h2>Pressemitteilung</h2>
                 <p class="text">
-                    Unsere Pressemitteilung für «Chemnitz hackt» kann <a href="/pm-chemnitz-hackt-2017-10-26.pdf">hier</a> heruntergeladen werden.
+                    Unsere Pressemitteilung für «Chemnitz hackt» kann <a href="/2017/pm-chemnitz-hackt-2017-10-26.pdf">hier</a> heruntergeladen werden.
                 </p>
             </div>
         </div>
-        <div class="line line-inverse"></div>
-        <div class="pure-g empty-row"></div>
+
+        {% include weiss_zu_gruen.html %}
 
         <!-- Sponsoren -->
         <div class="pure-g">
@@ -609,25 +613,25 @@
                 <h2>Sponsoren</h2>
                 <p class="text sponsors">
                     <a href="https://www.augusto.pizza" title="Augusto">
-                        <img class="logo-sponsor logo-augusto" src="augusto.png">
+                        <img class="logo-sponsor logo-augusto" src="/images/augusto.png">
                     </a>
                     <a href="https://www.axilaris.de" title="Axilaris">
-                        <img class="logo-sponsor logo-axilaris" src="axilaris.png">
+                        <img class="logo-sponsor logo-axilaris" src="/images/axilaris.png">
                     </a>
                     <a href="https://www.cape-it.de/" title="c.a.p.e. IT GmbH">
-                        <img class="logo-sponsor logo-capeit" src="capeit.png">
+                        <img class="logo-sponsor logo-capeit" src="/images/capeit.png">
                     </a>
                     <a href="http://www.chemmedia.de/" title="chemmedia AG">
-                        <img class="logo-sponsor logo-chemmedia" src="chemmedia.png">
+                        <img class="logo-sponsor logo-chemmedia" src="/images/chemmedia.png">
                     </a>
                     <a href="https://staffbase.com/">
-                        <img class="logo-sponsor logo-staffbase" src="staffbase.png">
+                        <img class="logo-sponsor logo-staffbase" src="/images/staffbase.png">
                     </a>
                     <a href="https://www.ed-chemnitz.de/">
-                        <img class="logo-sponsor logo-edc" src="edc.png">
+                        <img class="logo-sponsor logo-edc" src="/images/edc.png">
                     </a>
                     <a href="http://www.zammwerk.de" title="Zammwerk">
-                        <img class="logo-sponsor logo-zammwerk" src="zammwerk.png">
+                        <img class="logo-sponsor logo-zammwerk" src="/images/zammwerk.png">
                     </a>
                 </p>
                 <div class="is-center overflow-fix">
@@ -649,7 +653,7 @@
                     <li>ideas icon: <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0 US</a> <a href="https://thenounproject.com/term/innovative-idea/1326926">Vectors Market</a></li>
                     <li>judge icon: <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0 US</a> <a href="https://thenounproject.com/term/scale/834230">Lewis Ngugi</a></li>
                     <li>Für die Logos unserer Sponsoren gilt: Alle Warenzeichen sind Eigentum ihrer jeweiligen Eigentümer.</li>
-                    <li>© 2017 Code for Chemnitz &middot; <a href="/impressum/">Impressum &amp; Datenschutz</a>, <a href="https://github.com/CodeforChemnitz/chemhack">GitHub Repo dieser Webseite</a></li>
+                    <li>© 2017 Code for Chemnitz &middot; <a href="/impressum">Impressum &amp; Datenschutz</a>, <a href="https://github.com/CodeforChemnitz/chemhack">GitHub Repo dieser Webseite</a></li>
                 </ul>
             </div>
         </div>
