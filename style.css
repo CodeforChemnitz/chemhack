@@ -303,3 +303,55 @@ h3.agenda {
     margin: 0;
     color: #888888;
 }
+
+.talks h3,
+.projects h3,
+.projects h4,
+.talks h3 > span,
+.talks h3 > span > a {
+    font-weight: 500;
+}
+
+.talks .talk-header .meta,
+.talks .links,
+.projects .links {
+    font-weight: 500;
+    font-size: 12pt;
+    opacity: .8;
+}
+.talks .talk-header .meta {
+    text-align: right;
+}
+.talks .talk-header .meta > a {
+    font-weight: 500;
+}
+
+.talks .talk-header  {
+    margin-top: 70px;
+}
+
+.talks p {
+    margin-bottom: 10px;
+}
+.talks .talk-header  {
+    display: flex;
+    flex-wrap: wrap;
+}
+.talks .talk-header > *  {
+    flex-grow: 1;
+    margin: 0;
+    white-space: wrap;
+    height: 35px;
+}
+
+.projects h3 {
+    margin-top: 70px;
+}
+
+.projects blockquote {
+    border-left: 2px solid rgba(186, 186, 186, 0.39);
+    margin: 15px 10px;
+    padding: 0 10px;
+    color: rgb(88, 88, 88);
+    font-style: italic;
+}
